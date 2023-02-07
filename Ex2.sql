@@ -1039,7 +1039,7 @@ group by departamento;
 
 select *
 from empregados
-where (departamento = 'Lar' or departamento = 'Filmes');
+where (departamento = 'Lar' or departamento = 'Filmes')
 and sexo = 'Feminino';
 
 --Traga os funcionarios do sexo masculino
