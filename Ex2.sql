@@ -1057,7 +1057,7 @@ and sexo = 'Feminino';
 
 select count(*), sexo
 from empregados
-where sexo = 'Feminino'
+where sexo = 'Masculino'
 group by sexo;
 
 --Mulheres = 491
@@ -1073,7 +1073,7 @@ group by departamento;
 
 select *
 from empregados
-where sexo = 'Feminino'
+where sexo = 'Masculino'
 or departamento = 'Jardim';
 
 
