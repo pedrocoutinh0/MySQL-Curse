@@ -1039,8 +1039,8 @@ group by departamento;
 
 select *
 from empregados
-where sexo = 'Feminino'
-and (departamento = 'Lar' or departamento = 'Filmes');
+where (departamento = 'Lar' or departamento = 'Filmes');
+and sexo = 'Feminino';
 
 --Traga os funcionarios do sexo masculino
 --ou os funcionarios que trabalhem no setor Jardim
